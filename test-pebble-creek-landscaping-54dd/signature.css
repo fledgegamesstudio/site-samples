@@ -240,3 +240,4 @@ background:repeating-linear-gradient(90deg,transparent 0 calc(100%/12 - 1px),var
 .sg .two-col>*{min-width:0}
 .sg .contact-card dd,.sg .contact-card a,.sg footer a{overflow-wrap:anywhere}
 .sg h1,.sg h2{text-wrap:balance}
+@media (min-width:62rem){.sg .s-hero-split h1{font-size:clamp(2.8rem,1rem + 4.4vw,5.6rem)}}
