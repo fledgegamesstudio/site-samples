@@ -241,6 +241,31 @@ background:repeating-linear-gradient(90deg,transparent 0 calc(100%/12 - 1px),var
 .sg .contact-card dd,.sg .contact-card a,.sg footer a{overflow-wrap:anywhere}
 .sg h1,.sg h2{text-wrap:balance}
 @media (min-width:62rem){.sg .s-hero-split h1{font-size:clamp(2.8rem,1rem + 4.4vw,5.6rem)}}
+.s-book-form{display:grid;gap:2rem;max-width:56rem}
+.s-book-form legend{display:flex;align-items:center;gap:.6rem;font:var(--display-weight) 1.5rem/1.1 var(--font-display);margin-bottom:.9rem}
+.s-book-step{display:inline-grid;place-items:center;width:2rem;height:2rem;border-radius:50%;background:var(--primary);color:var(--primaryInk,#fff);font:700 1rem/1 var(--font-body)}
+.s-book-pkgs{display:grid;gap:.6rem}
+@media (min-width:40rem){.s-book-pkgs{grid-template-columns:1fr 1fr}}
+.s-book-pkg{display:grid;grid-template-columns:auto 1fr;column-gap:.7rem;align-items:center;padding:.8rem 1rem}
+.s-book-pkg input{grid-row:span 2}
+.s-book-pkg-name{font-weight:700}
+.s-book-pkg-meta{color:var(--muted);font-size:.95rem}
+.s-book-pkg:has(input:checked),.s-book-slot:has(input:checked){border-color:var(--primary);box-shadow:inset 0 0 0 1px var(--primary)}
+.s-book-days{display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(9.5rem,1fr))}
+.s-book-day{display:grid;gap:.4rem;align-content:start}
+.s-book-day-h{margin:0 0 .2rem;font-weight:700}
+.s-book-slot{min-height:2.75rem;justify-content:flex-start}
+.s-book-slot.is-taken{opacity:.55;cursor:not-allowed;text-decoration:line-through}
+.s-book-go{display:grid;gap:.5rem;justify-items:start}
+.s-book-done{border-left:4px solid var(--primary);background:var(--surface);padding:1.1rem 1.4rem;border-radius:0 var(--radius) var(--radius) 0}
+.s-book-done h2{font-size:1.3rem;margin:0 0 .4rem}
+.s-book-other{margin-top:2.5rem;color:var(--muted);max-width:48rem}
+.s-book-band .actions{margin-top:1.25rem}
+.s-book-band-pkgs{list-style:none;padding:0;margin:1rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem}
+.s-book-band-pkgs li{border:2px solid var(--line);border-radius:999px;padding:.35rem 1rem;font-weight:600;background:var(--paper)}
+.sg .choice.s-book-pkg{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:.7rem;row-gap:.15rem;align-items:center}
+.sg .s-book-pkg input{grid-row:1/3;grid-column:1}
+.sg .s-book-pkg-name,.sg .s-book-pkg-meta{grid-column:2}
 .s-hero-still,.s-hero-video{object-position:40% 60%}
 .s-m3-5{grid-column:3/6}
 .s-m5-9{grid-column:5/10}

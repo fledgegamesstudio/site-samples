@@ -142,6 +142,65 @@
     }
   }
 
+  // Online booking, demo slot picker (/book/ without a real booking url): the next working days from tomorrow, each
+  // with the configured start times; a few are shown as taken so it reads like a real calendar. Nothing is sent.
+  var bk = d.querySelector('[data-book]');
+  if (bk && !bk.getAttribute('data-url')) {
+    var bdays = (bk.getAttribute('data-days') || '').split(',').filter(Boolean);
+    var times = (bk.getAttribute('data-times') || '').split(',').filter(Boolean);
+    var bahead = Number(bk.getAttribute('data-ahead')) || 7;
+    var bnames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var holder = bk.querySelector('[data-book-days]');
+    var nojs = bk.querySelector('[data-book-nojs]');
+    var btn = bk.querySelector('[data-book-confirm]');
+    var sum = bk.querySelector('[data-book-summary]');
+    var done = bk.querySelector('[data-book-done]');
+    var today = new Date();
+    var shown = 0;
+    for (var i = 1; i <= bahead && shown < 6; i++) {
+      var dt = new Date(today.getFullYear(), today.getMonth(), today.getDate() + i);
+      if (bdays.indexOf(bnames[dt.getDay()]) < 0) continue;
+      var label = dt.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+      var day = d.createElement('div');
+      day.className = 's-book-day';
+      var h = d.createElement('p');
+      h.className = 's-book-day-h';
+      h.textContent = label;
+      day.appendChild(h);
+      times.forEach(function (t, j) {
+        var lab = d.createElement('label');
+        lab.className = 'choice s-book-slot';
+        var inp = d.createElement('input');
+        inp.type = 'radio'; inp.name = 'slot'; inp.value = label + ', ' + t;
+        var taken = (dt.getDate() + j * 2) % 5 === 0;
+        if (taken) { inp.disabled = true; lab.classList.add('is-taken'); }
+        lab.appendChild(inp);
+        lab.appendChild(d.createTextNode(taken ? t + ' (taken)' : t));
+        day.appendChild(lab);
+      });
+      holder.appendChild(day);
+      shown++;
+    }
+    bk.querySelector('[data-book-times]').hidden = false;
+    bk.querySelector('[data-book-go]').hidden = false;
+    if (nojs) nojs.hidden = true;
+    var picked = function () {
+      var p = bk.querySelector('input[name=package]:checked');
+      var s = bk.querySelector('input[name=slot]:checked');
+      btn.disabled = !(p && s);
+      sum.textContent = p && s ? p.getAttribute('data-label') + ', ' + s.value + '.' : (p ? 'Now pick a time.' : 'Pick a package and a time.');
+      return p && s ? { p: p, s: s } : null;
+    };
+    bk.addEventListener('change', picked);
+    btn.addEventListener('click', function () {
+      var c = picked();
+      if (!c) return;
+      done.querySelector('[data-book-done-text]').textContent = c.p.getAttribute('data-label') + ' on ' + c.s.value + '.';
+      done.hidden = false;
+      done.focus();
+    });
+  }
+
   // Preferred day: from tomorrow to the configured days ahead, working days only (quote.php checks the same).
   d.querySelectorAll('[data-sched]').forEach(function (fs) {
     var input = fs.querySelector('input[type=date]');
