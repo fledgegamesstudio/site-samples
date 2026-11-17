@@ -9,7 +9,12 @@
   var top = d.querySelector('.top-sticky');
   if (top) {
     var ticking = false;
-    var setTop = function () { top.classList.toggle('is-condensed', window.scrollY > 24); ticking = false; };
+    // Hysteresis, and only on pages with room to scroll: the header shrinking moves the page, which on a short page
+    // pushed the scroll back under the line and flipped it again forever (found by a sample site's quote page).
+    var setTop = function () {
+      var y = window.scrollY, room = d.documentElement.scrollHeight - innerHeight, on = top.classList.contains('is-condensed');
+      top.classList.toggle('is-condensed', room > 160 && (on ? y > 8 : y > 64)); ticking = false;
+    };
     addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(setTop); } }, { passive: true });
     setTop();
   }
