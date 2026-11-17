@@ -1,0 +1,34 @@
+# Upstate Clean Co.
+
+> Demo site (premium tier): power washing, junk removal and car detailing around Greenville, SC. See typical prices, then send a photo.
+
+- Phone: (864) 555-0100
+- Email: hello@example.com
+- Based in: Greenville, SC
+- Serves: Greenville, SC; Greer, SC; Mauldin, SC; Simpsonville, SC; Taylors, SC; Travelers Rest, SC; Easley, SC; Fountain Inn, SC; Five Forks, SC; Berea, SC
+- Hours: Mon to Fri 8 am to 6 pm; Sat 9 am to 2 pm
+- Rating: 4.9 out of 5 from 37 reviews on Google reviews
+- Insured, $1M liability
+- Website: https://www.example.com/
+- Free quote: https://www.example.com/quote/
+
+## Services
+
+- [Power washing](https://www.example.com/services/power-washing/): Driveways, siding, decks and fences, washed back to their real color. Typical price $90 to $500.
+- [Junk removal](https://www.example.com/services/junk-removal/): Garages, attics and yards cleared out, loaded and hauled the same visit. Typical price $75 to $550.
+- [Car detailing](https://www.example.com/services/car-detailing/): Interior and exterior detailing in your driveway. No drop-off, no waiting room. Typical price $110 to $260.
+
+## Towns
+
+- [Greenville, SC](https://www.example.com/service-area/greenville/)
+- [Greer, SC](https://www.example.com/service-area/greer/)
+- [Mauldin, SC](https://www.example.com/service-area/mauldin/)
+- [Simpsonville, SC](https://www.example.com/service-area/simpsonville/)
+- [Taylors, SC](https://www.example.com/service-area/taylors/)
+- [Travelers Rest, SC](https://www.example.com/service-area/travelers-rest/)
+- [Easley, SC](https://www.example.com/service-area/easley/)
+- [Five Forks, SC](https://www.example.com/service-area/five-forks/)
+
+## Optional
+
+- [Recent projects with before and after photos](https://www.example.com/gallery/)

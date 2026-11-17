@@ -1,0 +1,44 @@
+# Upstate Clean Co.
+
+> Demo site (signature tier): power washing, junk removal and car detailing around Greenville, SC. Add up typical prices, then send a photo.
+
+- Phone: (864) 555-0100
+- Email: hello@example.com
+- Based in: Greenville, SC
+- Serves: Greenville, SC; Greer, SC; Mauldin, SC; Simpsonville, SC; Taylors, SC; Travelers Rest, SC; Easley, SC; Fountain Inn, SC; Five Forks, SC; Berea, SC
+- Hours: Mon to Fri 8 am to 6 pm; Sat 9 am to 2 pm
+- Rating: 4.9 out of 5 from 37 reviews on Google reviews
+- Insured, $1M liability
+- Website: https://www.example.com/
+- Free quote: https://www.example.com/quote/
+
+## Services
+
+- [Power washing](https://www.example.com/services/power-washing/): Driveways, siding, decks and fences, washed back to their real color. Typical price $90 to $500.
+- [Junk removal](https://www.example.com/services/junk-removal/): Garages, attics and yards cleared out, loaded and hauled the same visit. Typical price $75 to $550.
+- [Car detailing](https://www.example.com/services/car-detailing/): Interior and exterior detailing in your driveway. No drop-off, no waiting room. Typical price $110 to $260.
+
+## Services by town
+
+- [Power washing in Greer, SC](https://www.example.com/services/power-washing/greer/)
+- [Power washing in Taylors, SC](https://www.example.com/services/power-washing/taylors/)
+- [Junk removal in Mauldin, SC](https://www.example.com/services/junk-removal/mauldin/)
+- [Car detailing in Five Forks, SC](https://www.example.com/services/car-detailing/five-forks/)
+
+## Towns
+
+- [Greenville, SC](https://www.example.com/service-area/greenville/)
+- [Greer, SC](https://www.example.com/service-area/greer/)
+- [Mauldin, SC](https://www.example.com/service-area/mauldin/)
+- [Simpsonville, SC](https://www.example.com/service-area/simpsonville/)
+- [Taylors, SC](https://www.example.com/service-area/taylors/)
+- [Travelers Rest, SC](https://www.example.com/service-area/travelers-rest/)
+- [Easley, SC](https://www.example.com/service-area/easley/)
+- [Five Forks, SC](https://www.example.com/service-area/five-forks/)
+
+## Optional
+
+- [Recent projects with before and after photos](https://www.example.com/gallery/)
+- [When to wash a house in the Upstate](https://www.example.com/tips/when-to-wash-your-house/): Pollen, humidity and red clay decide the best weeks to wash siding, decks and driveways here. A short guide to timing it right.
+- [Getting ready for a junk haul](https://www.example.com/tips/getting-ready-for-a-junk-haul/): Sort, measure and clear a path before the truck comes, and the haul goes faster and costs less. A checklist for the day before.
+- [Keeping a car clean through pollen season](https://www.example.com/tips/keep-a-car-clean-through-pollen-season/): Spring pollen scratches paint when you wipe it dry. How to rinse it off safely and keep the inside of the car breathable.
