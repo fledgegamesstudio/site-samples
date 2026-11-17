@@ -1,0 +1,18 @@
+# Pebble Creek Landscaping
+
+> Pebble Creek Landscaping offers landscape design and irrigation for homes and businesses in Franklin, Brentwood and Nashville.
+
+- Phone: (615) 581-2045
+- Email: pebblecreeklandscapingtn@gmail.com
+- Based in: Franklin, TN
+- Serves: Franklin, TN
+- Website: https://www.example.com/
+- Free quote: https://www.example.com/quote/
+
+## Services
+
+- [Landscape design](https://www.example.com/services/landscape-design/): Planning an outdoor space so beds, walks, patios and walls fit the yard.
+- [Irrigation installation](https://www.example.com/services/irrigation-installation/): Pipe, valves and heads that water lawns and beds on a set schedule.
+- [Drainage solutions](https://www.example.com/services/drainage-solutions/): Moving standing water away from homes, lawns and paved areas.
+- [Excavation and grading](https://www.example.com/services/excavation-and-grading/): Digging, shaping and leveling ground before building or planting.
+- [Planting, sod and turf](https://www.example.com/services/planting-sod-and-turf/): Adding plants and grass to a yard, from shrubs to rolled sod.

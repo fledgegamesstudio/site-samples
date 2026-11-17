@@ -1,0 +1,15 @@
+# Link's Tire and Auto Repair
+
+> Link's Tire and Auto Repair on Fort Avenue in Lynchburg, listed with the Better Business Bureau for tires and auto repair.
+
+- Phone: (434) 942-8885
+- Email: linkstires@icloud.com
+- Based in: Lynchburg, VA
+- Serves: Lynchburg, VA
+- Website: https://www.example.com/
+- Free quote: https://www.example.com/quote/
+
+## Services
+
+- [Tire service](https://www.example.com/services/tire-service/): Fitting, checking and swapping the tires on a car or truck.
+- [Auto repair](https://www.example.com/services/auto-repair/): Finding and fixing problems with brakes, engines and more.

@@ -1,0 +1,3 @@
+@font-face{font-family:"Fraunces";src:url(/site-samples/test-pebble-creek-landscaping-54dd/fonts/fraunces-600.woff2) format("woff2");font-weight:600;font-display:swap}@font-face{font-family:"Instrument Sans";src:url(/site-samples/test-pebble-creek-landscaping-54dd/fonts/instrument-sans.woff2) format("woff2");font-weight:400 700;font-display:swap}
+:root{--paper:#f5f3ec;--ink:#1d2a1f;--muted:#4f5b4f;--surface:#e7e4d6;--line:#c9c5b1;--primary:#2f5d34;--primary-ink:#ffffff;--accent:#d9a441;--accent-ink:#1d2a1f;--deep:#1d2a1f;--deep-ink:#f5f3ec;--deep-muted:#bfc8b8;--radius:3px;--font-display:"Fraunces",Georgia, serif;--font-body:"Instrument Sans",system-ui, sans-serif;--display-weight:600}
+:root{--type-scale:1.333;--display-tracking:-0.022em;--display-leading:0.98}

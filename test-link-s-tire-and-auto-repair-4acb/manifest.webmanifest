@@ -1,0 +1,22 @@
+{
+ "name": "Link's Tire and Auto Repair",
+ "short_name": "Link's",
+ "start_url": "/site-samples/test-link-s-tire-and-auto-repair-4acb/",
+ "display": "browser",
+ "background_color": "#f4f4f2",
+ "theme_color": "#a3261f",
+ "icons": [
+  {
+   "src": "/site-samples/test-link-s-tire-and-auto-repair-4acb/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "/site-samples/test-link-s-tire-and-auto-repair-4acb/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
