@@ -1,0 +1,17 @@
+# Mama's Java Cafe
+
+> Mama's Java Cafe in Nolensville, TN serves flavored coffee roasted by Mark Hall, tea, pastries and snacks baked by Melissa.
+
+- Phone: (615) 776-5282
+- Email: mamasjavatn@yahoo.com
+- Based in: Nolensville, TN
+- Serves: Nolensville, TN
+- Hours: Mon to Fri 6:30 am to 3 pm; Sat 7 am to 2 pm; Sun 8 am to 1 pm
+- Website: https://www.example.com/
+- Free quote: https://www.example.com/quote/
+
+## Services
+
+- [Flavored coffee](https://www.example.com/services/flavored-coffee/): Brewed coffee with a nut, chocolate, fruit or dessert flavor added.
+- [Pastries](https://www.example.com/services/pastries/): Baked sweet goods such as rolls, buns, scones and danishes.
+- [Tea](https://www.example.com/services/tea/): Leaves steeped in hot water, served black, green or herbal.

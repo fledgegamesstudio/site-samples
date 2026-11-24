@@ -1,0 +1,17 @@
+# Tatiana's European Spa
+
+> Tatiana's European Spa is a private boutique spa in Franklin, Tennessee, offering facials, massage and waxing.
+
+- Phone: (435) 263-6868
+- Email: tatianalaykam@gmail.com
+- Based in: Franklin, TN
+- Serves: Franklin, TN
+- Hours: Mon to Fri 9 am to 6 pm; Sat 9 am to 3 pm
+- Website: https://www.example.com/
+- Free quote: https://www.example.com/quote/
+
+## Services
+
+- [Facials](https://www.example.com/services/facials/): A skin care treatment that cleanses, exfoliates and moisturizes the face.
+- [Sacred Stone Massage Therapy](https://www.example.com/services/sacred-stone-massage-therapy/): A massage that uses smooth, warmed stones along with the hands.
+- [Brazilian Wax](https://www.example.com/services/brazilian-wax/): A hair removal method that uses warm wax to lift hair from the root.
