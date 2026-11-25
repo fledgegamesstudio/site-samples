@@ -1,0 +1,22 @@
+{
+ "name": "Flarelight",
+ "short_name": "Flarelight",
+ "start_url": "/site-samples/flarelight-c0b8/",
+ "display": "browser",
+ "background_color": "#f6f2ea",
+ "theme_color": "#9c3418",
+ "icons": [
+  {
+   "src": "/site-samples/flarelight-c0b8/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "/site-samples/flarelight-c0b8/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

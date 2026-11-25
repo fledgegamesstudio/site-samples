@@ -1,0 +1,22 @@
+{
+ "name": "Rusty Shipp",
+ "short_name": "Rusty Shipp",
+ "start_url": "/site-samples/rusty-shipp-d9c8/",
+ "display": "browser",
+ "background_color": "#f6f2ea",
+ "theme_color": "#9c3418",
+ "icons": [
+  {
+   "src": "/site-samples/rusty-shipp-d9c8/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "/site-samples/rusty-shipp-d9c8/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
