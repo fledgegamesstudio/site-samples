@@ -129,3 +129,17 @@ span.ph{display:inline-block;padding:.15rem .6rem}
 .look-retail .items{gap:1rem}
 .look-retail .items li{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:1.2rem 1.3rem}
 .look-retail .hero :focus-visible{outline-color:#f8fbf7}
+
+/* Owner box (money lab x005, 2026-11-19): Evan's offer to the owner, right under the banner. Fixed neutrals like the
+   banner, so it reads the same on every look and brand palette; stripped with the banner when a client goes live. */
+.owner-box{background:#f4f1ea;color:#1d1b18;border-bottom:1px solid #cfc6b8;font:400 .9375rem/1.45 "Body",system-ui,sans-serif}
+.owner-box-in{width:min(100% - 2.5rem,70rem);margin-inline:auto;padding:.75rem 0;display:flex;flex-wrap:wrap;align-items:center;
+  justify-content:center;gap:.4rem 1.25rem;text-align:center}
+.owner-box p{margin:0;max-width:52ch}
+.owner-box strong{font-weight:700}
+.owner-yes{display:inline-flex;align-items:center;justify-content:center;min-height:2.75rem;padding:.55rem 1.2rem;background:#1d1b18;
+  color:#f4f1ea;border-radius:999px;font-weight:600;text-decoration:none;white-space:nowrap}
+.owner-yes:hover{text-decoration:underline}
+.owner-links{display:flex;flex-wrap:wrap;justify-content:center;gap:0 1rem}
+.owner-links a{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 .2rem;font-size:.875rem;color:#1d1b18}
+.owner-box :focus-visible{outline-color:#1d1b18}
