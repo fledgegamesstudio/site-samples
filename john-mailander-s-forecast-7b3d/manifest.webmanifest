@@ -1,0 +1,22 @@
+{
+ "name": "John Mailander's Forecast",
+ "short_name": "John",
+ "start_url": "/site-samples/john-mailander-s-forecast-7b3d/",
+ "display": "browser",
+ "background_color": "#f3f4f7",
+ "theme_color": "#3a3fb8",
+ "icons": [
+  {
+   "src": "/site-samples/john-mailander-s-forecast-7b3d/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "/site-samples/john-mailander-s-forecast-7b3d/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

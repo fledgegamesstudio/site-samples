@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com/</loc></url>
+  <url><loc>https://www.example.com/music/</loc></url>
+  <url><loc>https://www.example.com/shows/</loc></url>
+  <url><loc>https://www.example.com/shows/past/</loc></url>
+  <url><loc>https://www.example.com/epk/</loc></url>
+  <url><loc>https://www.example.com/links/</loc></url>
+</urlset>

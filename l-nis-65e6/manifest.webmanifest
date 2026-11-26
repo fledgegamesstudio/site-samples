@@ -1,0 +1,22 @@
+{
+ "name": "LÒNIS",
+ "short_name": "LÒNIS",
+ "start_url": "/site-samples/l-nis-65e6/",
+ "display": "browser",
+ "background_color": "#f6f2ea",
+ "theme_color": "#9c3418",
+ "icons": [
+  {
+   "src": "/site-samples/l-nis-65e6/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "/site-samples/l-nis-65e6/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

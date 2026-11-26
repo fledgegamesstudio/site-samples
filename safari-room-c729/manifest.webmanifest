@@ -1,0 +1,22 @@
+{
+ "name": "Safari Room",
+ "short_name": "Safari Room",
+ "start_url": "/site-samples/safari-room-c729/",
+ "display": "browser",
+ "background_color": "#f3f4f7",
+ "theme_color": "#3a3fb8",
+ "icons": [
+  {
+   "src": "/site-samples/safari-room-c729/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "/site-samples/safari-room-c729/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
